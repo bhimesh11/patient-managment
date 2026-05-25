@@ -1,0 +1,13 @@
+### POST request to add patient
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "Nathan Cooper",
+  "email": "nathan.cooper@example.com",
+  "address": "742 Evergreen Terrace, Springfield",
+  "dateOfBirth": "1991-04-17",
+  "registeredDate": "2026-05-24"
+}
+
+###

@@ -2,6 +2,7 @@ package com.pm.patientservice.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 
 import java.time.LocalDate;
@@ -26,6 +27,7 @@ public class Patient {
     @NotNull
     private LocalDate dateOfBirth;
     @NotNull
+    @Column(name = "registered_date")
     private LocalDate registerDate;
 
     public Patient(LocalDate registerDate, LocalDate dateOfBirth, String address, String email, String name, UUID id) {
