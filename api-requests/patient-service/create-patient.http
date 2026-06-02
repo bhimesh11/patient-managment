@@ -3,11 +3,10 @@ POST http://localhost:4000/patients
 Content-Type: application/json
 
 {
-  "name": "Nathan Cooper",
-  "email": "nathan.cooper@example.com",
-  "address": "742 Evergreen Terrace, Springfield",
-  "dateOfBirth": "1991-04-17",
-  "registeredDate": "2026-05-24"
+  "name": "Daniel Carter",
+  "email": "daniel.carter@example.com",
+  "address": "245 Lincoln Street, Shelbyville",
+  "dateOfBirth": "1989-11-21",
+  "registeredDate": "2025-06-02"
 }
-
 ###
